@@ -1,0 +1,179 @@
+
+<!DOCTYPE html>
+<html>
+
+	<head>
+
+		<title>Po-Ya Wang</title>
+		<link rel="shortcut icon" href="favicon.ico"/>
+		<meta name="viewport" content="width = device-width, initial-scale=1"/>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<link href="https://fonts.googleapis.com/css?family=Lobster|Quicksand|Raleway" rel="stylesheet">
+		<link href="style.css" type="text/css" rel="stylesheet"/>
+
+	</head>
+
+	<body>
+
+		<div class="infoBoxSec">
+
+			<div class="infoBox IdahoWeather">
+				<h1>Idaho Weather Site</h1>
+
+				<p>The website site contains weather information and upcoming events for different towns in Idaho. </p>
+
+				<div class="infoBoxBtnSec">
+					<a href="https://poyawang.github.io/lesson11/homepage.html" target="_blank"><button>Visit Site</button></a>
+					<button class="dismissInfo">Dismiss</button>
+				</div>
+			</div>
+
+			<div class="infoBox scoots">
+				<h1>Scoots</h1>
+
+				<p>Scoots is a car rental website, it introduces tourists in Cozumel Island the fastest way to travel around.</p>
+
+				<div class="infoBoxBtnSec">
+					<a href="https://poyawang.github.io/scoots/homepage.html" target="_blank"><button>Visit Site</button></a>
+					<button class="dismissInfo">Dismiss</button>
+				</div>
+			</div>
+
+			<div class="infoBox arcadeGame">
+				<h1>Castle Battle</h1>
+
+				<p>In Castle Battle game, you play as a knight in a castle and defeat monsters that appear over time.  </p>
+
+				<div class="infoBoxBtnSec">
+					<a href="https://github.com/Bioniboy/Castle-Battle" target="_blank"><button>Visit Game</button></a>
+					<button class="dismissInfo">Dismiss</button>
+				</div>
+			</div>
+
+		</div>
+
+		<div class="navigation hidden-xs container">
+			<div class="col-lg-9 col-md-9 col-sm-9">
+				<img class="img-responsive topButton" src="/img/logo-small.png"/>
+			</div>
+
+			<div class="col-lg-3 col-md-3 col-sm-3">
+				<ul class="nav nav-pills nav-justified">
+					<li><a href="#" class="workBtn">WORK</a></li>
+					<li><a href="#" class="aboutBtn">ABOUT</a></li>
+					<li><a href="#" class="conBtn">CONTACT</a></li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="welcomeSec">
+			<img class="img-responsive mainLogo" src="img/logo.png"/>
+			<h1>Po-Ya Wang</h1>
+			<h2>Front-end Web Developer Portfolio</h2>
+			<img class="img-responsive down workBtn1" src="/img/down.png"/>
+		</div>
+
+		<div class="workSec">
+
+			<div class="container secTitle">
+				<h1>Projects<br/> <small>Check it out.</small></h1>
+			</div>
+
+			<div class="myWork container">
+				<div class="row">
+
+					<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 container">
+						<div class="imageHolder IdahoW">
+							
+							<a target="_blank"><h2 class="caption">Idaho Weather Site </h2></a>
+
+
+							<div class="dimmer">
+							</div>
+						</div>
+					</div>
+
+
+					<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 container">
+						<div class="imageHolder arcadeG">
+							
+							<a target="_blank"><h2 class="caption">Castle Battle</h2></a>
+
+
+							<div class="dimmer">
+							</div>
+						</div>
+					</div>
+
+					<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 container">
+						<div class="imageHolder ScootsR">
+							
+							<a target="_blank"><h2 class="caption">Scoots</h2></a>
+							<div class="dimmer">
+							</div>
+						</div>
+					</div>
+
+					<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 container">
+						<div class="imageHolder mnlcity">
+							<a href=""><h2 class="caption">coming soon</h2></a>
+							<div class="dimmer">
+							</div>
+						</div>
+					</div>
+
+				</div>
+
+
+			</div>
+
+			<img class="img-responsive down2 aboutBtn1" src="/img/downWhite.png"/>
+		</div>
+
+		<div class="aboutSec">
+			<div class="container secTitle2">
+				<h1>About Me</h1>
+				<h2 class="aboutHeader text-center">Hi there, </h2>
+				<p class="aboutDes text-justify">I'm Po-Ya Wang, you can just call me Anna. I'm 24 year-old, from Taipei Taiwan. I'm currently studying at BYU-Idaho, and major 
+                    in software engineering. I had came to love coding when I first introduced to JavaScript. Now, I become more and more amazed by 
+                    the beautiful of programming.
+				</p>
+			</div>
+
+			<img class="img-responsive down2 conBtn1" src="/img/down.png"/>
+		</div>
+
+		<div class="conSec">
+			<div class="container secTitle3">
+				<h1>Contact<br/><small>I'm one click away.</small></h1>
+
+				<a><h2>poyawang12@gmail.com  <small>Email</small></h2></a>
+
+				<a target="_blank" href="https://www.linkedin.com/in/po-ya-wang-413002188"><h2><small>LinkedIn</small>  Po-Ya Wang</h2></a>
+
+			</div>
+		</div>
+
+		<div class="footer">
+			<div class="container footCon">
+				<img class="img-responsive topButton" src="/img/logo-small.png"/>
+				<span id="year"></span>
+				<p>&copy;Po-Ya Wang</p>
+				<script>
+					console.log((new Date()).getFullYear());
+					document.getElementById("year").innerHTML = (new Date()).getFullYear();
+				</script>
+			</div>
+		</div>
+
+
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="jquery.waypoints.min.js"></script>
+	<script src="port.js"></script>
+
+
+	</body>
+
+</html>
